@@ -17,7 +17,8 @@ win = tk.Tk()
 
 win.title("POPCAT!!!!")
 
+win.resizable(width=0, height=0)
 btn_start = Button(text="開始", command=start)
-btn_start.grid(column=0, row=0)
+btn_start.grid(column=1, row=0,columnspan=2)
 
 win.mainloop()
